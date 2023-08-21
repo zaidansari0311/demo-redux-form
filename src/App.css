@@ -1,0 +1,46 @@
+.card {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  /* scroll-behavior: smooth; */
+  /* overflow-y: scroll; */
+  width: 80vw;
+  height: auto;
+}
+.org-container {
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  background-color: #8080802b;
+}
+.css-dip3t8{
+  background-color: black;
+}
+.layout-content {
+  display: flex;
+  flex-direction: row;
+}
+.footer{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding: 10px;
+  background-color: white;
+}
+.header{
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  padding: 10px;
+  background-color: white;
+}
+.form-label{
+  margin-top: 5px;
+}
+.error{
+  font-size: 14px;
+  color: red;
+}
